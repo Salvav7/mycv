@@ -12,9 +12,14 @@ export class HeaderComponent implements OnInit{
 	constructor(private headerService: HeaderService){}
 
 	name : string = "";
-	titulos : string = "";
+	titulo : string = "";
 	mision : string = "";
 	foto : string = "";
+	email : string = "";
+	celular : string = "";
+	ubicacion : string = "";
+	redsocial : string = "";
+
 
 	ngOnInit(): void {
         this.headerService.getHeader()
@@ -22,9 +27,13 @@ export class HeaderComponent implements OnInit{
 	console.log(data);
 	//alert(data);
 	this.name = data.name;
-	this.titulos = data.titulos;
+	this.titulo = data.titulo;
 	this.mision = data.mision;
 	this.foto = data.foto;
+	this.email = data.email;
+	this.celular = data.celular;
+	this.ubicacion = data.ubicacion;
+	this.redsocial = data.redsocial;
 	});
     }
 }
