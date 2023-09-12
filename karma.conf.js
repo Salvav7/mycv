@@ -42,6 +42,7 @@ module.exports = function (config) {
       }
     },
     singleRun: false,
-    restartOnFileChange: false
+    failOnEmptyTestSuite: false,
+    restartOnFileChange: true
   });
 };
