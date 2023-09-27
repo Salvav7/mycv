@@ -1,0 +1,12 @@
+/* styles.css */
+
+.color-box {
+    background-color: #0ee4ae; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px;
+    margin: 5px;
+    border: none; /* Elimina el borde */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    display: inline-block;
+    /* Agrega otros estilos de diseño aquí */
+  }
+  
