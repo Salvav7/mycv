@@ -6,7 +6,7 @@ import { Observable, map } from 'rxjs';
   providedIn: 'root'
 })
 export class WorkExperienceService {
-  private apiUrl = 'http://localhost:8080'; 
+  private apiUrl = 'https://salvavapi-service-salvav7.cloud.okteto.net/'; 
 
   constructor(private http: HttpClient) { }
 
