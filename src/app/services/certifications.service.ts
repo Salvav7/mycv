@@ -7,7 +7,7 @@ import { Observable, map } from 'rxjs';
   providedIn: 'root'
 })
 export class CertificationsService {
-  private apiUrl = 'https://salvavapi-service-salvav7.cloud.okteto.net/'; 
+  private apiUrl = 'https://salvavapi-service-salvav7.cloud.okteto.net'; 
 
   constructor(private http: HttpClient) { }
 
